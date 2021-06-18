@@ -16,10 +16,9 @@ class _OptionsState extends State<Options> {
       width: MediaQuery.of(context).size.width / 4,
       color: Colors.white,
       child: Column(
-        // ignore: prefer_const_constructors
-        // ignore: prefer_const_literals_to_create_immutables
-        children: [Text("Share"), Text("Like"), Text("USer")],
-      ),
+          // ignore: prefer_const_constructors
+          // ignore: prefer_const_literals_to_create_immutables
+          children: [Text("Share"), Text("Like")]),
     );
   }
 }
